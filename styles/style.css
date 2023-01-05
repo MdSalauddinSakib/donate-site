@@ -1,14 +1,40 @@
-*{
+* {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-.header{
+
+.text-primary {
+    color: #FFFFFF;
+    
+}
+
+.header {
     margin: 0;
-    padding: 170px ;
-    font-weight: 700;
-    font-size: 65px;
     background-image: url('images/donation14.webp');
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center;
+    color: #4ba8c4;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    padding: 170px 307px 20px 307px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.detail {
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.btn-primary{
     color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    height: 64px;
 }
