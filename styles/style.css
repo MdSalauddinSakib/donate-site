@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    margin: 0;
+    padding: 170px ;
+    font-weight: 700;
+    font-size: 65px;
+    background-image: url('images/donation14.webp');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #FFFFFF;
+}
