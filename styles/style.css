@@ -129,25 +129,22 @@
     gap: 24px;
     margin-left: 200px;
     margin-right: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
 }
 
 .food {
     background: rgba(79, 157, 166, 0.1);
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    padding: 30px;
+    
 }
 .family {
     background: rgba(255, 89, 89, 0.1);
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    padding: 30px;
+    
 }
 .child {
     background: rgb(255, 244, 214)
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    padding: 30px;
+   
 }
 
 .food img {
@@ -169,5 +166,61 @@
 }
 .food-description{
     padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 50px;
     padding-left: 32px;
+    
+}
+
+/* There live depend your donation */
+
+.depend-box{
+    margin: 160px;
+    display: flex;
+    gap: 80px;
+}
+
+.there h1{
+    padding: 0 20px 20px 0;
+    font-weight: 700;
+font-size: 45px;
+}
+.there p{
+    color: #707070;
+    padding: 0 20px 20px 0;
+}
+/* subscribe styles */
+.contact{
+    display: flex;
+    gap: 0px;
+    background: #FFF4D6;
+    padding-left: 300px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    margin: 300px;
+    
+}
+
+.ebtn{
+    display: flex;
+}
+.contact input[type="email"]{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    padding:18px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.ebtn .subs{
+    background: #FF5959;
+    padding: 5px 30px 5px 30px ;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
 }
