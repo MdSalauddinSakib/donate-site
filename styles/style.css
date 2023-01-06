@@ -132,13 +132,31 @@
 }
 
 .food {
-    background: #9fdfe4;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.family {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.child {
+    background: rgb(255, 244, 214)
     border-radius: 5px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     padding: 30px;
 }
 
 .food img {
+    padding-left: 23px;
+}
+.family img {
+    padding-left: 23px;
+}
+.child img {
     padding-left: 23px;
 }
 
@@ -150,5 +168,6 @@
     color: #121212;
 }
 .food-description{
-    
+    padding-top: 16px;
+    padding-left: 32px;
 }
