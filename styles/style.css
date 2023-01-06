@@ -5,12 +5,12 @@
 
 .text-primary {
     color: #FFFFFF;
-    
+
 }
 
 .header {
     margin: 0;
-    background-image: url('images/donation14.webp');
+    background-image: url('images/donation141.jpg');
     background-repeat: no-repeat;
     background-position: center;
     color: #4ba8c4;
@@ -27,9 +27,10 @@
 .detail {
     font-weight: 400;
     font-size: 18px;
-    
+
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     background: #FF5959;
     border-radius: 5px;
@@ -37,4 +38,117 @@
     font-size: 20px;
     padding: 18px 35px 19px 36px;
     height: 64px;
+
+}
+
+.donate-today h4 {
+    color: #121212;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.donate-today p {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.amount {
+    display: flex;
+    gap: 22px;
+    margin-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.tk1 h4 {
+    color: #707070;
+    border-radius: 5px;
+    padding: 43px 23px 44px 23px;
+    background: #FAFAFA;
+
+}
+
+.tk2 h4 {
+    color: #FF5959;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+    padding: 43px 23px 44px 23px;
+
+}
+
+.donate-today .other {
+    padding-bottom: 10px;
+}
+
+.donate-today hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-today .btn-second {
+    margin: 30px 650px 0px 650px;
+    color: #FFFFFF;
+    background: #FF5959;
+    ;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    height: 64px;
+
+}
+
+.our-donate h1 {
+    color: #121212;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.our-donate p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #707070;
+    text-align: center;
+    margin: auto;
+}
+
+.boxes {
+    display: flex;
+    gap: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.food {
+    background: #9fdfe4;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.food img {
+    padding-left: 23px;
+}
+
+.food-title {
+    padding-top: 30px;
+    padding-left: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+.food-description{
+    
 }
